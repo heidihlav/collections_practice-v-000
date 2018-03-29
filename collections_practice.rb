@@ -43,5 +43,4 @@ def add_s(array)
     "#{element} + "s""
   end
 end
-end
 # "#{index} #{element}" + "s"
