@@ -40,7 +40,7 @@ end
 
 def add_s(array)
   [1,2].each_with_index.collect do |element, index|
-    "#{element}" + "s"
+    "#{element}" "#{index}" + "s"
   end
 end
 # "#{index} #{element}" + "s"
