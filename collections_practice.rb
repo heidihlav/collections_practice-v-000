@@ -17,7 +17,8 @@ end
 
 def swap_elements(array) #NEED TO REFACTOR
   array = ["blake", "ashley", "scott"]
-  array.sort_by { |item| item.reverse }
+  [1,2] = [2,1]
+  array
 end
 
 def reverse_array(array)
