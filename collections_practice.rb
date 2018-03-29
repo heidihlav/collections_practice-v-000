@@ -43,7 +43,8 @@ def add_s(array)
     if element != "feet"
       "#{element}" + "s"
     else
-      "feet"  
+      "feet"
   end
+end
 end
 # "#{index} #{element}" + "s"
